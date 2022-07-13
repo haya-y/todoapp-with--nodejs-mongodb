@@ -1,0 +1,24 @@
+{
+  "name": "todoapp-with--nodejs-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haya-y/todoapp-with--nodejs-mongodb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haya-y/todoapp-with--nodejs-mongodb/issues"
+  },
+  "homepage": "https://github.com/haya-y/todoapp-with--nodejs-mongodb#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
