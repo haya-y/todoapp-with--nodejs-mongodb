@@ -5,10 +5,10 @@ const TaskSchema = new mongoose.Schema({
     type: String,
     required: [true, "Fill in a task name."],
     trim: true,
-    maxlength: [20, "Write a task name in maximum 20 letters."],
+    maxlength: [20, "Maximum 20 letters."],
   },
   completed: {
-    type: String,
+    type: Boolean,
     default: false,
   }
 })
