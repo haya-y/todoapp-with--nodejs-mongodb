@@ -12,9 +12,9 @@ const getAllTasks = async (req, res) => {
 const createTask = async (req, res) => {
   try {
     const createTask = await Task.create(req.body);
-    res.status(200).json(createTask);
+    return res.status(200).json(createTask);
   } catch (err) {
-    res.status(500).json(err);
+    return res.status(500).json(err);
   }
 };
 
