@@ -36,7 +36,7 @@ const updateTask = async (req, res) => {
     if (!updateTask) {
       return res.status(404).json(`_id:${req.params.id} doesn't exist.`);
     }
-    res.status(200).json(updateTask);
+    return res.status(200).json(updateTask);
   } catch (err) {
     res.status(500).json(err);
   }
